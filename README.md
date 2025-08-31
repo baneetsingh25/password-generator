@@ -49,7 +49,5 @@ It allows users to generate strong and secure passwords with customizable length
 
 ## 👨‍💻 Author
 **Baneet Singh**  
-Enrollment No: **05476802724**
-
 ---
 
