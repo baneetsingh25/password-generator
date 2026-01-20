@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+        <h1>Password generator</h1>
+        <form >
+        <label for="length">Length</label>
+        <input type="range" name="length" id="length" min="4" max="32" value="12" step="1" oninput="lengthNumber.value = this.value">
+        <input type="number" id="lengthNumber" min="4" max="32" value="12" step="1" oninput="length.value = this.value">
+        <br><button style="margin-top: 20px; cursor: pointer;" type="submit">Generate</button>
+    </form>
+    <p class="pass"></p>
+    <button class="copy">Copy</button>
+    </div>
+
+    <div style="margin-top: 40px;" class="pass"></div>
+    <script src="script .js"></script>
+</body>
+</html>
